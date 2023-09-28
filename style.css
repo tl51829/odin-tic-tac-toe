@@ -1,0 +1,18 @@
+:root {
+    --random-custom-property: "hehe";
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.field {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
